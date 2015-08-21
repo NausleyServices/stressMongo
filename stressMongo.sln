@@ -1,0 +1,82 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "stressMongo", "stressMongo\stressMongo.csproj", "{9623AA69-94E1-4F9F-90CB-6DDBCCC0B3E3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "stressMongo_Read", "stressMongo_Read\stressMongo_Read.csproj", "{71DAFF50-A4AA-448A-A9A0-1E9CF4F6E5CA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "mongoInsert", "mongoInsert\mongoInsert.csproj", "{A22EEC51-1CC9-4A31-AFF6-108158037170}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "mongoRead", "mongoRead\mongoRead.csproj", "{E7799DAF-0458-45FD-8091-DC7254EA82C8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "mongoDataBlockInsert", "mongoDataBlockInsert\mongoDataBlockInsert.csproj", "{3279E207-3035-4849-9876-625C21078A29}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "__Reference", "__Reference\__Reference.csproj", "{4D978ABD-0C52-4F6F-8BBC-40217DC4EF34}"
+EndProject
+Global
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 7
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = http://tfs.beetgroup.com:8080/tfs/beetcollection
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = mongoInsert\\mongoInsert.csproj
+		SccProjectName1 = mongoInsert
+		SccLocalPath1 = mongoInsert
+		SccProjectUniqueName2 = stressMongo\\stressMongo.csproj
+		SccProjectName2 = stressMongo
+		SccLocalPath2 = stressMongo
+		SccProjectUniqueName3 = stressMongo_Read\\stressMongo_Read.csproj
+		SccProjectName3 = stressMongo_Read
+		SccLocalPath3 = stressMongo_Read
+		SccProjectUniqueName4 = mongoRead\\mongoRead.csproj
+		SccProjectName4 = mongoRead
+		SccLocalPath4 = mongoRead
+		SccProjectUniqueName5 = mongoDataBlockInsert\\mongoDataBlockInsert.csproj
+		SccProjectName5 = mongoDataBlockInsert
+		SccLocalPath5 = mongoDataBlockInsert
+		SccProjectUniqueName6 = __Reference\\__Reference.csproj
+		SccProjectName6 = __Reference
+		SccLocalPath6 = __Reference
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9623AA69-94E1-4F9F-90CB-6DDBCCC0B3E3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9623AA69-94E1-4F9F-90CB-6DDBCCC0B3E3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9623AA69-94E1-4F9F-90CB-6DDBCCC0B3E3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{71DAFF50-A4AA-448A-A9A0-1E9CF4F6E5CA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{71DAFF50-A4AA-448A-A9A0-1E9CF4F6E5CA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{71DAFF50-A4AA-448A-A9A0-1E9CF4F6E5CA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{71DAFF50-A4AA-448A-A9A0-1E9CF4F6E5CA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A22EEC51-1CC9-4A31-AFF6-108158037170}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A22EEC51-1CC9-4A31-AFF6-108158037170}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A22EEC51-1CC9-4A31-AFF6-108158037170}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A22EEC51-1CC9-4A31-AFF6-108158037170}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E7799DAF-0458-45FD-8091-DC7254EA82C8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E7799DAF-0458-45FD-8091-DC7254EA82C8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E7799DAF-0458-45FD-8091-DC7254EA82C8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E7799DAF-0458-45FD-8091-DC7254EA82C8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3279E207-3035-4849-9876-625C21078A29}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3279E207-3035-4849-9876-625C21078A29}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3279E207-3035-4849-9876-625C21078A29}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3279E207-3035-4849-9876-625C21078A29}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4D978ABD-0C52-4F6F-8BBC-40217DC4EF34}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4D978ABD-0C52-4F6F-8BBC-40217DC4EF34}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4D978ABD-0C52-4F6F-8BBC-40217DC4EF34}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4D978ABD-0C52-4F6F-8BBC-40217DC4EF34}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 3
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = http://tfs.beetgroup.com:8080/tfs/beetcollection
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = stressMongo\\stressMongo.csproj
+		SccProjectName1 = stressMongo
+		SccLocalPath1 = stressMongo
+	EndGlobalSection
+EndGlobal
